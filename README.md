@@ -1,12 +1,17 @@
 # Casper
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
+This is the theme used for both [Blog ID](https://blog.cove.id) and [Blog SG](https://blog.cove.sg). The purpose of maintaining this repo is so that we can just sync from the main repo if there is any update.
 
-&nbsp;
+# Changes applied
+In this forked repo, the followings are applied on top of the official theme
+- added language support for Blog ID, it won't affect Blog SG since its Publication Language is already en
+- added [Table of Content](https://ghost.org/tutorials/adding-table-of-contents/)
 
-![screenshot-desktop](https://user-images.githubusercontent.com/1418797/183329195-8e8f2ee5-a473-4694-a813-a2575491209e.png)
+# Updating the theme
+If you want to update the theme, just sync this repo from the main repo, or you can rebase it from upstream then re-apply the same changes if needed. Then, you need to compress the whole directory and upload it to the blogs.
 
-&nbsp;
+----
+
 
 # First time using a Ghost theme?
 
