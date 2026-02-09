@@ -7,6 +7,12 @@ into the {body} tag of the default.hbs template --}}
 {{#post}}
 {{!-- Everything inside the #post block pulls data from the page --}}
 
+{{#has tag="#en"}}
+    {{#contentFor "lang"}}en{{/contentFor}}
+{{else}}
+    {{#contentFor "lang"}}{{@site.locale}}{{/contentFor}}
+{{/has}}
+
 <main id="site-main" class="site-main">
 <article class="article {{post_class}}">
 
